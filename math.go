@@ -1,10 +1,10 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"math"
-)
+// import (
+// 	"fmt"
+// 	"math"
+// )
 
-func main() {
-	fmt.Println(math.Ceil(1.40))
-}
+// func main() {
+// 	fmt.Println(math.Ceil(1.40))
+// }
