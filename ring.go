@@ -1,20 +1,20 @@
-package main
+// package main
 
-import (
-	"container/ring"
-	"fmt"
-	"strconv"
-)
+// import (
+// 	"container/ring"
+// 	"fmt"
+// 	"strconv"
+// )
 
-func main() {
-	data := ring.New(10)
-	for i := 0; i < data.Len(); i++ {
-		data.Value = "Value " + strconv.Itoa(i)
-		data = data.Next()
+// func main() {
+// 	data := ring.New(10)
+// 	for i := 0; i < data.Len(); i++ {
+// 		data.Value = "Value " + strconv.Itoa(i)
+// 		data = data.Next()
 
-	}
+// 	}
 
-	data.Do(func(value any) {
-		fmt.Println(value)
-	})
-}
+// 	data.Do(func(value any) {
+// 		fmt.Println(value)
+// 	})
+// }
